@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sushi Near Me Restaurant Guide is a responsive Japanese dining explorer for sushi restaurants, sushi bars, nigiri sushi, sushi rolls, local menus, maps, and ordering.">
+    <link rel="icon" type="image/png" href="./imgs/sushi (3).png">
+    <title>Sushi Near Me Restaurant Guide</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="adaptive.css">
+    <link href="https://fonts.googleapis.com/css?family=MuseoModerno:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js' integrity='sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw==' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.css' integrity='sha512-U9Y1sGB3sLIpZm3ePcrKbXVhXlnQNcuwGQJ2WjPjnp6XHqVTdgIlbaDzJXJIAuCTp3y22t+nhI4B88F/5ldjFA==' crossorigin='anonymous'/>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.2/axios.js' integrity='sha512-vHNHepeQWwAggJlhEk932jRS5sNdn/Nn4F+w4TpXW5dA+04qnd3e7YpfXo6auWhFG6z3FVhmScG4ovtF+qYeZw==' crossorigin='anonymous'></script>
+</head>
+<body>
+    <div class="cookiesPopupCon">
+        <div class="cookiesPopup">
+            <div class="cookiesPopup_left">
+                <div class="cookiesPopup_title">We use cookies</div>
+                <div class="cookiesPopup_text">In purpose to make your webpage experience better we use cookie files. They are absolutely save to accept. We won’t provide any your personal information and data to anyone. Feel free to accept them here. You can read more in our Privacy Policy settings.</div>
+                <div class="cookiesPopup_accept">Accept</div>
+            </div>
+            <div class="cookiesPopup_right">
+                    <img class="cookieMainPart" src="./imgs/fortune-cookie main part.png" alt="">
+                    <img class="cookieCrumb1" src="./imgs/fortune-cookie crumb 1.png" alt="">
+                    <img class="cookieCrumb2" src="./imgs/fortune-cookie crumb 2.png" alt="">
+                    <img class="cookieCrumb3" src="./imgs/fortune-cookie crumb 2.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="burgerCon">
+        <div class="burger">
+            <i class="fa-solid fa-xmark burger_xmark"></i>
+            <div class="burger_link" id="burger_homePage">Home page</div>
+            <div class="burger_link" id="burger_menu">Menu</div>
+            <div class="burger_link" id="burger_orders">Orders</div>
+            <div class="burger_link" id="burger_contacts">Contacts</div>
+        </div>
+    </div>
+    <div class="wrap">
+        <div class="header">
+            <img class="header_logo" src="./imgs/mian page logo.png" alt="">
+            <div class="header_nav">
+                <div class="header_nav_el" id="homePage" href="/">Home page</div>
+                <div class="header_nav_el" id="menu" href="/menu">Menu</div>
+                <div class="header_nav_el" id="orders" href="/orders">Orders <div class="ordersCount">0</div></div>
+                <div class="header_nav_el" id="contacts" href="/contacts">Contacts</div>
+            </div>
+            <div class="header_burger">
+                <div class="header_burgerRow"></div>
+                <div class="header_burgerRow"></div>
+                <div class="header_burgerRow"></div>
+            </div>
+            <div class="header_languageThemeCon">
+                <select class="header_language">
+                    <option value="Eng">Eng.</option>
+                    <option value="Ukr">Ukr.</option>
+                    <option value="Jap">Jap.</option>
+                    <option value="Fr">Fr.</option>
+                    <option value="It">It.</option>
+                    <option value="Por">Por.</option>
+                </select>
+                <div class="header_theme">
+                    <div class="header_themeCircle"></div>
+                </div>
+            </div>
+        </div>
+        <div class="content"></div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="./main.js"></script>
+
+</body>
+</html>
+
+

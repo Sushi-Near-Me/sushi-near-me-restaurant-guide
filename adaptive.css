@@ -1,0 +1,379 @@
+@media screen and (max-device-width: 430px) {
+  .wrap {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .wrap .header {
+    padding: 20px !important;
+  }
+  .wrap .header .header_nav {
+    display: none;
+  }
+  .wrap .header .header_languageThemeCon {
+    display: none;
+  }
+  .wrap .header .header_burger {
+    display: flex;
+  }
+  .wrap .content .home .screen {
+    width: 100%;
+    padding: 20px;
+  }
+  .wrap .content .home .mainPage .mainPage_content {
+    margin-top: -40px;
+    flex-direction: column-reverse;
+  }
+  .wrap .content .home .mainPage .mainPage_content .mainPage_content_textPart {
+    width: 100%;
+  }
+  .wrap .content .home .mainPage .mainPage_content .mainPage_content_textPart .mainPage_content_title {
+    font-size: 40px;
+  }
+  .wrap .content .home .mainPage .mainPage_content .mainPage_content_textPart .mainPage_content_text {
+    font-size: 16px;
+    margin-top: 7px;
+  }
+  .wrap .content .home .mainPage .mainPage_content .mainPage_content_textPart .mainPage_content_buttons {
+    width: 370px;
+  }
+  .wrap .content .home .mainPage .mainPage_content .mainPage_content_textPart .mainPage_content_button {
+    width: 173px;
+    height: 63px;
+    font-size: 24px;
+  }
+  .wrap .content .home .mainPage .mainPage_content .mainPage_content_imgPart .mainPage_content_imgPart_FullImg .mainPage_bowlImg {
+    width: 169px;
+    left: 15px;
+  }
+  .wrap .content .home .mainPage .mainPage_content .mainPage_content_imgPart .mainPage_content_imgPart_FullImg .mainPage_sushiImg {
+    width: 310px;
+    left: 75px;
+  }
+  .wrap .content .home .mainPage .mainPage_background {
+    height: 840px;
+  }
+  .wrap .content .home .locationPage {
+    position: relative;
+    margin-top: -50px;
+  }
+  .wrap .content .home .locationPage .locationPage_title {
+    font-size: 36px;
+  }
+  .wrap .content .home .locationPage .mainlandImg {
+    transform: scale(0.5);
+  }
+  .wrap .content .home .locationPage .locationPage_worldContainer {
+    height: 300px;
+    margin-top: -30px;
+  }
+  .wrap .content .home .locationPage .locationPage_worldContainer .NorthAmericaContainer {
+    left: -74px;
+  }
+  .wrap .content .home .locationPage .locationPage_worldContainer #SouthAmerica {
+    left: 0px;
+    top: 93px;
+    left: 13px;
+  }
+  .wrap .content .home .locationPage .locationPage_worldContainer #Africa {
+    left: 0;
+    top: 45px;
+    left: 70px;
+  }
+  .wrap .content .home .locationPage .locationPage_worldContainer #Eurasia {
+    top: -5px;
+    left: 21px;
+  }
+  .wrap .content .home .locationPage .locationPage_worldContainer #Oceania {
+    left: 0;
+    top: 98px;
+    left: 241px;
+  }
+  .wrap .content .home .locationPage .locationPage_statistics {
+    width: 90%;
+    flex-wrap: wrap;
+  }
+  .wrap .content .home .locationPage .locationPage_statistics .locationPage_statistics_column_adapriveMargin {
+    margin-top: 20px;
+  }
+  .wrap .content .home .dishPage {
+    margin-top: -250px;
+  }
+  .wrap .content .home .dishPage .dishPage_textContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  .wrap .content .home .dishPage .dishPage_textContainer .dishPage_textContainer_title {
+    font-size: 36px;
+  }
+  .wrap .content .home .dishPage .dishPage_textContainer .dishPage_img {
+    left: -450px;
+    transform: scale(0.5);
+    top: -400px;
+  }
+  .wrap .content .home .dishPage .dishPage_textContainer .dishPage_textContainer_mainText {
+    margin-top: 500px;
+    font-weight: 200;
+  }
+  .wrap .content .home .dishPage .dishPage_textContainer .dishPage_textContainer_btnsCon {
+    width: 100%;
+  }
+  .wrap .content .home .dishPage .dishPage_sushiInfo {
+    margin-top: -320px;
+  }
+  .wrap .content .home .dishPage .dishPage_sushiInfo .dishPage_sushiInfo_name {
+    font-size: 24px;
+  }
+  .wrap .content .home .dishPage .dishPage_sushiInfo .dishPage_sushiInfo_price {
+    font-size: 20px;
+  }
+  .wrap .content .home .futer {
+    padding: 20px;
+    margin-top: -80px;
+  }
+  .wrap .content .home .futer .futer_hr_container {
+    width: 100%;
+  }
+  .wrap .content .home .futer .futer_infoCon {
+    flex-direction: column;
+  }
+  .wrap .content .home .futer .futer_infoCon .futer_infoCon_text {
+    width: 100%;
+  }
+  .wrap .content .home .futer .futer_infoCon .futer_infoCon_text .futer_infoCon_text_columns {
+    width: 170px;
+    position: relative;
+    width: 100%;
+    margin-top: -40px;
+  }
+  .wrap .content .home .futer .futer_infoCon .futer_infoCon_text .futer_infoCon_text_columns .futer_infoCon_text_column_Navigation .futer_infoCon_text_column_heading {
+    font-size: 20px;
+  }
+  .wrap .content .home .futer .futer_infoCon .futer_infoCon_text .futer_infoCon_text_columns .futer_infoCon_text_column_Navigation .futer_infoCon_text_column_el {
+    font-size: 14px;
+  }
+  .wrap .content .home .futer .futer_infoCon .futer_infoCon_text .futer_infoCon_text_columns .futer_infoCon_text_column_Help {
+    position: absolute;
+    left: 134px;
+  }
+  .wrap .content .home .futer .futer_infoCon .futer_infoCon_text .futer_infoCon_text_columns .futer_infoCon_text_column_Help .futer_infoCon_text_column_heading {
+    font-size: 20px;
+  }
+  .wrap .content .home .futer .futer_infoCon .futer_infoCon_text .futer_infoCon_text_columns .futer_infoCon_text_column_Help .futer_infoCon_text_column_el {
+    font-size: 14px;
+  }
+  .wrap .content .home .futer .futer_infoCon .futer_infoCon_text .futer_infoCon_text_columns .futer_infoCon_text_column_Amenities {
+    position: absolute;
+    text-align: right;
+    top: 150px;
+    right: 20px;
+  }
+  .wrap .content .home .futer .futer_infoCon .futer_infoCon_text .futer_infoCon_text_columns .futer_infoCon_text_column_Amenities .futer_infoCon_text_column_heading {
+    font-size: 20px;
+  }
+  .wrap .content .home .futer .futer_infoCon .futer_infoCon_text .futer_infoCon_text_columns .futer_infoCon_text_column_Amenities .futer_infoCon_text_column_el {
+    font-size: 14px;
+  }
+  .wrap .content .home .futer .futer_infoCon .futer_infoCon_text .futer_infoCon_text_Yorokobi {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 160px;
+  }
+  .wrap .content .home .futer .futer_infoCon .futer_infoCon_text .futer_infoCon_text_Yorokobi .futer_infoCon_text_Yorokobi_Logo {
+    transform: scale(0.7);
+    margin-left: -20px;
+  }
+  .wrap .content .home .futer .futer_infoCon .futer_infoCon_text .futer_infoCon_text_Yorokobi .futer_infoCon_text_Yorokobi_text {
+    width: 100%;
+    font-size: 10px;
+  }
+  .wrap .content .home .futer .futer_infoCon .futer_infoCon_pictures img {
+    transform: scale(0.4);
+  }
+  .wrap .content .home .futer .futer_infoCon .futer_infoCon_pictures .futer_infoCon_pictures_sushi1 {
+    left: 200px;
+    top: -436px;
+  }
+  .wrap .content .home .futer .futer_infoCon .futer_infoCon_pictures .futer_infoCon_pictures_sushi2 {
+    left: -80px;
+    top: -290px;
+  }
+  .wrap .content .menu .dishesContainer .dishesContainer_typeChoise {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .wrap .content .menu .dishesContainer .dishesContainer_typeChoise .dishesContainer_typeChoise_item {
+    width: 160px;
+    margin-bottom: 25px;
+  }
+  .wrap .content .menu .dishesContainer .dishesContainer_dishes {
+    margin-top: 30px;
+  }
+  .wrap .content .orders {
+    padding: 0 20px !important;
+  }
+  .wrap .content .orders .ordersContainer .order {
+    width: 100%;
+    height: 211px;
+    border-radius: 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 18px;
+    position: relative;
+  }
+  .wrap .content .orders .ordersContainer .order .order_name {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .wrap .content .orders .ordersContainer .order .orderBtns {
+    width: 281px;
+    margin-bottom: 15px;
+  }
+  .wrap .content .orders .ordersContainer .order .orderBtns .orderBtn {
+    font-size: 24px;
+    font-weight: 400;
+    height: 61px;
+  }
+  .wrap .content .orders .ordersContainer .order .order_separetiveLine {
+    display: none;
+  }
+  .wrap .content .orders .ordersContainer .order .order_time {
+    font-size: 20px;
+    font-weight: 300;
+    padding: 0;
+  }
+  .wrap .content .orders .ordersContainer .order .order_price {
+    font-size: 24px;
+    font-weight: 600;
+    position: absolute;
+    width: 110px;
+    right: 0px;
+    top: 25px;
+  }
+  .wrap .content .contacts {
+    padding: 20px;
+  }
+  .wrap .content .contacts .contactsConainer {
+    flex-direction: column;
+  }
+  .wrap .content .contacts .contactsConainer .connectionForm {
+    width: 100%;
+  }
+  .wrap .content .contacts .contactsConainer .connectionForm h5 {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .wrap .content .contacts .contactsConainer .connectionForm .connectionForm_form {
+    width: 381px;
+  }
+  .wrap .content .contacts .contactsConainer .connectionForm .connectionForm_form input {
+    width: 381px;
+  }
+  .wrap .content .contacts .contactsConainer .connectionForm .connectionForm_form textarea {
+    width: 381px;
+  }
+  .wrap .content .contacts .contactsConainer .separetiveLine {
+    width: 381px;
+    height: 2px;
+    margin: 50px 0;
+  }
+  .wrap .content .contacts .contactsConainer .locationAndHours {
+    width: 100%;
+  }
+  .wrap .content .contacts .contactsConainer .locationAndHours .locationAndHours_hoursAndMedia {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .wrap .content .contacts .contactsConainer .locationAndHours .locationAndHours_hoursAndMedia .locationAndHours_media {
+    margin: 25px 0 0 0;
+  }
+  .cookiesPopupCon {
+    padding: 20px;
+  }
+  .cookiesPopupCon .cookiesPopup {
+    width: 100%;
+    flex-direction: column;
+    padding: 20px;
+    min-height: 500px;
+  }
+  .cookiesPopupCon .cookiesPopup .cookiesPopup_left {
+    width: 100%;
+  }
+  .cookiesPopupCon .cookiesPopup .cookiesPopup_left .cookiesPopup_title {
+    font-size: 36px;
+  }
+  .cookiesPopupCon .cookiesPopup .cookiesPopup_left .cookiesPopup_text {
+    margin-top: 0px;
+    font-size: 16px;
+  }
+  .cookiesPopupCon .cookiesPopup .cookiesPopup_left .cookiesPopup_accept {
+    width: 150px;
+    height: 45px;
+    font-size: 18px;
+    border-radius: 10px;
+  }
+  .cookiesPopupCon .cookiesPopup .cookiesPopup_right {
+    width: 100%;
+    height: 200px;
+    margin-top: 15px;
+  }
+  .cookiesPopupCon .cookiesPopup .cookiesPopup_right .cookieMainPart {
+    width: 150px;
+    height: 150px;
+  }
+  .cookiesPopupCon .cookiesPopup .cookiesPopup_right .cookieCrumb1 {
+    width: 18px;
+    height: 18px;
+    top: 120px;
+    left: 210px;
+  }
+  .cookiesPopupCon .cookiesPopup .cookiesPopup_right .cookieCrumb2 {
+    width: 5px;
+    height: 5px;
+    top: 135px;
+    left: 190px;
+  }
+  .cookiesPopupCon .cookiesPopup .cookiesPopup_right .cookieCrumb3 {
+    width: 5px;
+    height: 5px;
+    top: 110px;
+    left: 200px;
+  }
+  .burgerCon {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(19, 22, 27, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    padding: 20px;
+  }
+  .burgerCon .burger {
+    width: 100%;
+    height: 400px;
+    background-color: #F73859;
+    border-radius: 20px;
+    padding: 15px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .burgerCon .burger .burger_xmark {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 32px;
+  }
+  .burgerCon .burger .burger_link {
+    color: #13161B;
+    font-size: 32px;
+    font-weight: 400;
+    text-decoration: none;
+  }
+}/*# sourceMappingURL=adaptive.css.map */
